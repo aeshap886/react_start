@@ -1,0 +1,50 @@
+import React, { Fragment } from 'react';
+import { Button, Container, Form, FormGroup, Input } from 'reactstrap';
+import {Helmet} from "react-helmet";
+const AddCourses=()=>{
+    return (
+        
+     <Fragment >
+          <Helmet>
+            <title>AddCourses</title>
+            <meta name="description" content="Learn more home and our mission." />
+         
+            <meta name ="author" content="Aesha" /> 
+            </Helmet>
+        <h1 className="text-center mb-4"  style={{color:"#333"}}> 
+            Fill Course Detail
+            </h1>
+        <Form  className="p-4 rounded shadow-smt" style={{ background:"#e3f2fd ", maxwidth:"600px", margin:"0 auto"}}>   
+            <FormGroup>
+                <label>Course Id</label>
+                <Input type="text" 
+                placeholder="Enter here"
+                name="userId"
+                id="userId"
+                />
+            </FormGroup>
+            <FormGroup>
+                <label for="title">Course title</label>
+                <Input type="text" placeholder="Enter title here" id="title"/>
+            </FormGroup>
+            <FormGroup>
+                <label for="description">Course Description</label>
+                <Input 
+                type="textarea"
+                placeholder="Enter description here"
+                id="description"
+                style={{height:70}}
+                />
+            </FormGroup>
+            <Container className="text-center">
+            <Button color="success">Add Course</Button> 
+                <Button color="warning mx-3">Clear</Button>
+            </Container>
+        </Form>
+        
+    </Fragment>
+    
+    );
+};
+
+export default AddCourses;
