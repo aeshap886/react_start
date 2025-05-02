@@ -1,7 +1,12 @@
 import React from "react";
 
+
 const contactus = () => {
     return (
+       <div className="text-center">
+                <img src="../assets/image/c1.jpg" class="d-block mx-auto mb-4" style={{width:"100%", height:"300px",margin:"10px",objectFit:"cover"}}></img>
+
+    
     <div style={{padding: "20px" ,backgroundColor: "lightblue", textAlign: "center"}}>
         <h2>
             Contact Us
@@ -26,6 +31,7 @@ const contactus = () => {
         </p>
 
     </div>
+    </div> 
     );
   };
   

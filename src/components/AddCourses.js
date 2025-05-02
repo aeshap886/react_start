@@ -15,12 +15,15 @@ const AddCourses=()=>{
                         <meta property="og:url" content="" />
             <meta name ="author" content="Aesha" /> 
             </Helmet>
-            <div>
-            <img src="../assets/image/f1.webp" class="card-img-top " style={{width:"850px", height:"200px"}}></img>
+           
+            <Container className="px-0">
+            <img src="../assets/image/f2.jpg" alt='Course Banner'
+            className="d-block mx-auto mb-4" style={{width:"100%", height:"300px",objectFit:"cover",margin:"10px"}}></img>
         <h1 className="text-center mb-4"  style={{color:"#333"}}> 
             Fill Course Detail
             </h1>
-        <Form  className="p-4 rounded shadow-smt" style={{ background:"#e3f2fd ", maxwidth:"600px", margin:"0 auto"}}>   
+        <Form  className="p-4 rounded shadow-smt" 
+        style={{ background:"#e3f2fd ", maxwidth:"600px", margin:"0 auto"}}>   
             <FormGroup>
                 <label>Course Id</label>
                 <Input type="text" 
@@ -47,8 +50,11 @@ const AddCourses=()=>{
                 <Button color="warning mx-3">Clear</Button>
             </Container>
         </Form>
-        </div>
+        
+    </Container>
+
     </Fragment>
+    
     
     );
 };

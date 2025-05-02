@@ -11,6 +11,9 @@ import AddCourses from './components/AddCourses';
 import News from './components/News';
 import contactus from './components/contactus';
 import Menus from './components/Menus';
+import Navigation from './components/Navigation';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import {BrowserRouter as Router,Route,Routes} from "react-router-dom";
 function App() {
 
@@ -26,12 +29,9 @@ function App() {
     <ToastContainer/>
    <Container>
     <Header/>
-    <Row>
-      <Col md={4}>
-     <Menus/>
+    
+     <Navigation/>
      
-      </Col>
-      <Col md={8}>
       <Routes>
       <Route path="/" Component={Home}  exact/>
       <Route path="/add-course" Component={AddCourses} exact />
@@ -40,8 +40,7 @@ function App() {
      <Route path="/contactus" Component={contactus} exact />
       </Routes>
      
-    </Col>
-    </Row>
+    
    </Container>
 
     </Router>
