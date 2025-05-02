@@ -19,6 +19,12 @@ const Course = ({course}) => {
             <CardBody>
                    <Helmet key={window.location.pathname}>
                         <title>Course</title>
+                        <meta property="og:title" content="Your Website Title" />
+                        <meta property="og:description" content="A short description of your website." />
+                        <meta property="og:image" content="E:\react\courses\public\assets\image\image.png" />
+                        <meta property="og:url" content="https://yourdomain.com" />
+                        <meta property="og:type" content="website" />
+
                         <meta name="keywords" content="Learn more home and our mission." />
                     </Helmet>
                 <CardSubtitle  className="font-weight-bold text-center">
