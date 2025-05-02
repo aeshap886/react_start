@@ -14,6 +14,7 @@ const Allcourses = () => {
         <Helmet>
         <title>All Courses</title>
         <meta name="description" content="Learn more home and our mission." />
+        
         </Helmet>
         <h1 className="text-center">All Courses</h1>
         <p>List of courses are as follows</p>

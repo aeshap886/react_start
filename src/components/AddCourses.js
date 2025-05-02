@@ -4,13 +4,19 @@ import {Helmet} from "react-helmet";
 const AddCourses=()=>{
     return (
         
-     <Fragment >
-          <Helmet>
+    <Fragment >
+        <Helmet>
             <title>AddCourses</title>
             <meta name="description" content="Learn more home and our mission." />
-         
+            <meta property="og:image" content="" />
+                        <meta property="og:image" content="../assets/image/f1.webp" />
+                        <meta property="og:image:width" content="1200" />
+                        <meta property="og:image:height" content="630" />
+                        <meta property="og:url" content="" />
             <meta name ="author" content="Aesha" /> 
             </Helmet>
+            <div>
+            <img src="../assets/image/f1.webp" class="card-img-top " style={{width:"850px", height:"200px"}}></img>
         <h1 className="text-center mb-4"  style={{color:"#333"}}> 
             Fill Course Detail
             </h1>
@@ -41,7 +47,7 @@ const AddCourses=()=>{
                 <Button color="warning mx-3">Clear</Button>
             </Container>
         </Form>
-        
+        </div>
     </Fragment>
     
     );
