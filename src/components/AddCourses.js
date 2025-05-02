@@ -12,7 +12,7 @@ const AddCourses=()=>{
                         <meta property="og:image" content="../assets/image/f2.jpg" />
                         <meta property="og:image:width" content="1200" />
                         <meta property="og:image:height" content="630" />
-                        <meta property="og:url" content="" />
+                        <meta property="og:url" content="https://dreamy-bavarois-72052a.netlify.app/" />
             <meta name ="author" content="Aesha" /> 
             </Helmet>
            
