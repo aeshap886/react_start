@@ -9,7 +9,7 @@ const AddCourses=()=>{
             <title>AddCourses</title>
             <meta name="description" content="Learn more home and our mission." />
             <meta property="og:image" content="" />
-                        <meta property="og:image" content="../assets/image/f1.webp" />
+                        <meta property="og:image" content="../assets/image/f2.jpg" />
                         <meta property="og:image:width" content="1200" />
                         <meta property="og:image:height" content="630" />
                         <meta property="og:url" content="" />
