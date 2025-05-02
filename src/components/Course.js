@@ -22,7 +22,7 @@ const Course = ({course}) => {
                         <meta property="og:title" content="Your Website Title" />
                         <meta property="og:description" content="A short description of your website." />
                         <meta property="og:image" content="E:\react\courses\public\assets\image\image.png" />
-                        <meta property="og:url" content="https://yourdomain.com" />
+                        <meta property="og:url" content="https://dreamy-bavarois-72052a.netlify.app/" />
                         <meta property="og:type" content="website" />
 
                         <meta name="keywords" content="Learn more home and our mission." />
